@@ -1,5 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-  }
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(60deg, blue 42%, red 65%);
+  color: white;
+  text-align: center;
+  margin: 50px;
+  height: 100vh;
+}
+
+
+
+h1 {
+color: white;
+text-shadow: 10px 10px 5px black;
+}
+
+label {
+display: block;
+margin: 10px 0;
+}
+
+input {
+padding: 8px;
+width: 300px;
+font-size: 16px;
+}
+
+button {
+background-color: black;
+color: #fff;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+margin: 20px;
+
+}
+
+button:hover {
+background-color: yellow;
+font-weight: bold;
+box-shadow: 10px 10px 20px white;
+color: black;
+}
+
+#result {
+margin-top: 20px;
+font-size: 18px;
+}
